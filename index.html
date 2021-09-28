@@ -93,7 +93,7 @@
 						</p>
 					</div>
 					<div class="col-md-6 hidden-xs">
-						<img class="img-responsive griffin" src="img/karakter.png" />
+						<img class="img-responsive animal" src="img/karakter.png" />
 					</div>
 				</div>
 			</div>
@@ -278,23 +278,30 @@
 		</div>
 
 		<div class="container mt100" id="carousel">
-			<div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
-				<div class="carousel-cell">
-					<!-- <img style="height: 100%;border-radius: 10px;width: 100%;object-fit: cover;" src="https://dl0d5jadwbp9c.cloudfront.net/cdn/img/b46251b7a7e27da6ae1707e1d04416ec.png"/> -->
-				</div>
-				<div class="carousel-cell">
-					<!-- <img style="height: 100%;border-radius: 10px;width: 100%;object-fit: cover;" src="https://dl0d5jadwbp9c.cloudfront.net/cdn/img/62670ef021ebda2968365b8fc9293090.jpeg"/> -->
-				</div>
-				<div class="carousel-cell">
-					<!-- <img style="height: 100%;border-radius: 10px;width: 100%;object-fit: cover;" src="https://dl0d5jadwbp9c.cloudfront.net/cdn/img/be475032f2491285f93816624672a779.png"/> -->
-				</div>
-				<div class="carousel-cell">
-					<!-- <img src="img/pict-carousel.jpg"/> -->
-				</div>
-				<div class="carousel-cell">
-					<!-- <img src="img/pict-carousel.jpg"/> -->
-				</div>
-			</div>
+			<div id="example">
+				<carousel-3d :controls-visible="true" :autoplay="true" :autoplay-timeout="5000" :clickable="false">
+				  <slide :index="0">
+					<img style="width: 100%; height: 100%;" src="https://dl0d5jadwbp9c.cloudfront.net/cdn/img/7eaada432e6b136afa40cd12bc230a30.png">
+					<figcaption>Ini data 1</figcaption>
+				  </slide>
+				  <slide :index="1">
+					<img style="width: 100%; height: 100%;" src="https://dl0d5jadwbp9c.cloudfront.net/cdn/img/7eaada432e6b136afa40cd12bc230a30.png">
+					<figcaption>Ini data 2</figcaption>
+				  </slide>
+				  <slide :index="2">
+					<img style="width: 100%; height: 100%;" src="https://dl0d5jadwbp9c.cloudfront.net/cdn/img/7eaada432e6b136afa40cd12bc230a30.png">
+					<figcaption>Ini data 3</figcaption>
+				  </slide>
+				  <slide :index="3">
+					<img style="width: 100%; height: 100%;" src="https://dl0d5jadwbp9c.cloudfront.net/cdn/img/7eaada432e6b136afa40cd12bc230a30.png">
+					<figcaption>Ini data 4</figcaption>
+				  </slide>
+				  <slide :index="4">
+					<img style="width: 100%; height: 100%;" src="https://dl0d5jadwbp9c.cloudfront.net/cdn/img/7eaada432e6b136afa40cd12bc230a30.png">
+					<figcaption>Ini data 5</figcaption>
+				  </slide>
+				</carousel-3d>
+			</div>	
 		</div>
 
 		<div class="container roadmap mt100" id="roadmap">
@@ -784,11 +791,6 @@
 					<a target="_blank" href="https://twitter.com/bsc_daily/status/1418183474872127488?s=20">
 						<img src="img/partner2.png" class="img-responsive" />
 					</a>
-				</div>
-				<div class="col-md-3 col-xs-6">
-					<a target="_blank" href="https://www.dapp.com/article/what-is-griffin-art">
-						<img src="img/dapp.png" class="img-responsive" />
-					</a>
 				</div> -->
 			</div>
 		</Div>
@@ -990,7 +992,18 @@
 
 	</div>
 	<script src="js/sayac.js"></script>
-	<script src="js/flickity.pkgd.js"></script>
+	<script src="https://wlada.github.io/vue-carousel-3d/js/carousel-3d.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+	<script>
+		new Vue({
+		  el: '#example',
+		  components: {
+			  'carousel-3d': window['carousel-3d'].Carousel3d,
+			  'slide': window['carousel-3d'].Slide
+		  }
+		  })
+	</script>
+	<!-- <script src="js/flickity.pkgd.js"></script>
 	<script src="js/flickity.pkgd.min.js"></script>
 	<script>
 		$(document).ready(function(){
@@ -1029,7 +1042,7 @@
 						]
 			});
 		  });
-	</script>
+	</script> -->
 	<script>
 		function makeTimer() {
 
@@ -1073,7 +1086,7 @@
 	<link href="css/swiper.min.css" rel="stylesheet">
 	<script src="js/swiper.min.js"></script>
 	<script src="js/d3.min.js"></script>
-	<script src="js/griffin.js"></script>
+	<script src="js/animal.js"></script>
 
 </body>
 </html>

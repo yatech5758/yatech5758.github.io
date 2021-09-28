@@ -471,11 +471,8 @@ padding:0px;overflow:hidden;
 }
 .grl {height:100vh !important;}
 .grl img {height:100%;}
-.griffin {margin-top:150px !important;}
+.animal {margin-top:150px !important;}
 .about {  padding:30px;
-    /* background-image: url("../img/griffinlogo.png"), linear-gradient(to right, #DD2476, #FF512F);
-    background-image: url("../img/griffinlogo.png"), -webkit-gradient(linear, left top, left bottom, from(#DD2476), to(#FF512F));
-    background-image: url("../img/griffinlogo.png"), -moz-linear-gradient(top, #DD2476, #FF512F); */
 	background-repeat: no-repeat !important;
 	background-position:right top;text-shadow:1px 1px rgba(0,0,0,0.3);
 }
