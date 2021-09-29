@@ -8,42 +8,30 @@ link = $(this).attr("href");
 
 $("html, body").animate({ scrollTop: $(link).offset().top - 100}, 1000);
  });
- $(document).ready(function(){
-  $('.carousel').slick({
-  prevArrow: false,
-  nextArrow: false,
-  slidesToShow: 3,
-  dots:true,
-  autoplay:true,
-  speed: 200,
-  centerMode: true,
-  responsive: [
-          {
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 3,
-            infinite: true,
-            dots: true
-          }
-          },
-          {
-          breakpoint: 770,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 1
-          }
-          },
-          {
-          breakpoint: 480,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            dots: false
-          }
-          }
-        ]
-  });
-  });
+$(document).ready(function(){
+    $('.nftcard').slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 4,
+				slidesToScroll: 4
+            }
+        }, {
+            breakpoint: 520,
+            settings: {
+                slidesToShow: 2,
+				slidesToScroll: 2
+            }
+        }]
+    });
+});
 
 
 
@@ -68,6 +56,15 @@ $(window).bind('scroll', function () {
 	
     }
 });
+    var swiper = new Swiper('.minislide .swiper-container', {
+ centeredSlides: false,
+        navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },autoplay: {
+    delay: 5000,
+  }
+    });
 
 
 
