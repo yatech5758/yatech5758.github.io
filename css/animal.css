@@ -1121,6 +1121,10 @@ color:#2A333D;
   .logo {height:0px !important;}
 }
 
+/* @media (max-width: 1024px){
+  .logo {height:40px !important;}
+} */
+
 #aboutus h1 {
   color: #ffffff;
 }
