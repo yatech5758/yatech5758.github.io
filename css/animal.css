@@ -1070,7 +1070,7 @@ font-size: 28px;
 	H1 {font-size:32px;margin:0px 0px 20px 0px !important;line-height:45px;}
 	.ustalan {height:auto !important;min-height:auto !important;max-height:auto !important;padding-bottom:20px;padding-top:0px !important;}
 	.slider {padding-TOP:120px;padding-bottom:100px;}
-	.logo {height:70px !important;}
+	.logo {height:55px !important;}
 	
 	.about {padding:30px !important;}
 	.navbar-collapse {background:#fff;box-shadow: 0 4px 4px -4px RGBA(0,0,0,0.7);}
@@ -1115,6 +1115,10 @@ color:#2A333D;
 	/*
 	.anaslider p {color:#CCC !important;text-shadow:none !important;}
 	.anaslider h3 {font-size:20px !important;}*/
+}
+
+@media (max-width: 768px){
+  .logo {height:0px !important;}
 }
 
 #aboutus h1 {
