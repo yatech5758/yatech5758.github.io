@@ -30,7 +30,8 @@ $("html, body").animate({ scrollTop: $(link).offset().top - 100}, 1000);
           breakpoint: 770,
           settings: {
             slidesToShow: 2,
-            slidesToScroll: 1
+            slidesToScroll: 1,
+            dots: false
           }
           },
           {
