@@ -38,10 +38,6 @@
   background-repeat: repeat-x;
 }
 
-.carousel-3d-slide{
-    border-style: none !important;
-}
-
 .carousel-3d-container figcaption {
   position: absolute;
   background-color: rgba(0, 0, 0, 0.5);
