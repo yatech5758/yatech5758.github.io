@@ -198,8 +198,8 @@ a:focus {outline: 0px !important;}
     box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
 }
 .btn-hover.color-3 {
-    background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
-    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+    background-image: linear-gradient(to right, #76373c, #431216, #76373c, #431216);
+    box-shadow: 0 4px 15px 0 rgb(67 18 22 / 61%);
 }
 .btn-hover.color-4 {
     background-image: linear-gradient(to right, #fc6076, #ff9a44, #ef9d43, #e75516);
@@ -426,15 +426,15 @@ background-size: cover;padding-bottom:50px;}
 }
 
 .kutu h1 {margin:0px !important;color:#FFF;text-shadow:2px 2px 2px RGBA(0,0,0,0.1);
-background-image: linear-gradient(-225deg, #A445B2 0%, #D41872 52%, #FF0066 100%);
-padding-top:20px;BORDER-radius:50px;
+background-image: linear-gradient(-225deg, #431216 0%, #684446 52%, #431216 100%);
+padding-top:20px;border-radius:50px;
 height:90px;width:90px !important;margin:0px auto 0px auto !important;
 }
 .lacivert {background:#fff;box-shadow:0px 0px 20px rgba(0,0,0,0.9);}
 .grborder {text-shadow:1px 1px rgba(255,255,255,0.3);box-shadow: rgb(0,0,0) 0px 20px 30px -10px !important;}
 
 
-         .btn-disable {BORDER:none !important;background-image: linear-gradient(to right, #AA076B 0%, #61045F  51%, #AA076B  100%)}
+         .btn-disable {border:none !important;background-image: linear-gradient(to right, #AA076B 0%, #61045F  51%, #AA076B  100%)}
          .btn-disable {
             margin: 0px;
             padding: 10px 45px;
