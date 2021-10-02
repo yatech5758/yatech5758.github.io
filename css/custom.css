@@ -292,3 +292,14 @@
 	transform: scale(1.25);
   transition: transform 0.5s;
 }
+
+/* Preload */
+.preload-img {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  background: -webkit-linear-gradient(325deg, #ffdc00, #ffe100);
+}
