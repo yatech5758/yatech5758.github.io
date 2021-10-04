@@ -303,3 +303,9 @@
   align-items: center;
   background: -webkit-linear-gradient(325deg, #ffdc00, #ffe100);
 }
+
+@media (max-width: 1024px){
+  .nav>li>a{
+    position:relative;display:block;padding:10px 5px
+  }
+}

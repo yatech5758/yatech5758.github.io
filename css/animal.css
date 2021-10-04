@@ -808,7 +808,7 @@ button.close {
 }
 .inline-photo.is-visible {
   opacity: 1;
-  transform: rotateZ(-2deg);
+  transform: rotateZ(0deg);
 }
 
 
@@ -1072,7 +1072,7 @@ font-size: 28px;
 #part5 .circle {background-color: #ff9e00;animation: five 0.5s 1 forwards 2s;}
 	.dagilim li {margin-bottom:15px;}
 	.ustalan h1 {font-size:32px;line-height:40px;}
-	.navbar-nav {margin-top:0px;}
+	.navbar-nav {margin-top:20px;}
 	.anaslider {padding-top:150px !important;}
 	.mt100 {margin-top:60px !important;}
 	.navbar-header {height:100px;}
@@ -1097,10 +1097,6 @@ color:#2A333D;
 @media (max-width: 768px){
   .logo {height:0px !important;}
 }
-
-/* @media (max-width: 1024px){
-  .logo {height:40px !important;}
-} */
 
 #aboutus h1 {
   color: #ffffff;
