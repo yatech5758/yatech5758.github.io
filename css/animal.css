@@ -1092,10 +1092,17 @@ color:#2A333D;
 	/*
 	.anaslider p {color:#CCC !important;text-shadow:none !important;}
 	.anaslider h3 {font-size:20px !important;}*/
+  .logo {height:0px !important;}
 }
 
-@media (max-width: 768px){
-  .logo {height:0px !important;}
+@media screen and (min-width: 426px) and (max-width: 768px){
+  .tshirt {max-width: 50%;TOP: -45%;}
+  .game {max-width: 50%;TOP: -38%;}
+}
+
+@media screen and (min-width: 769px) and (max-width: 1199px){
+  .tshirt {TOP: -25%;}
+  .game {TOP: -22%;}
 }
 
 #aboutus h1 {
