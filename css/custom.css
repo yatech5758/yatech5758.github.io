@@ -11,7 +11,6 @@
     box-shadow: 0px 0px 10px 2px rgb(0 0 0 / 80%);
 } */
 
-
 /*New Carosel*/
 .carousel-3d-slide.current,
 .carousel-3d-slide.left-1,
@@ -23,12 +22,12 @@
 .carousel-3d-slide.right-2,
 .carousel-3d-slide.right-3,
 .carousel-3d-slide.right-4,
-.carousel-3d-slide.right-5{
-    border-radius: 20px;
-    /* height: auto !important; */
+.carousel-3d-slide.right-5 {
+  border-radius: 20px;
+  /* height: auto !important; */
 }
 
-.ngetes-cuy{
+.ngetes-cuy {
   width: auto;
   height: auto;
   align-items: center;
@@ -53,243 +52,249 @@
 
 /* Left Move */
 .tcontainer {
-    width: 100%;
-    overflow: hidden;
+  width: 100%;
+  overflow: hidden;
 }
 
 .ticker-wrap {
-    width: 100%;
-    padding-right: 100%;
+  width: 100%;
+  padding-right: 100%;
 }
 
 .ticker-move {
-    padding-right: 250%;
-    display: inline-block;
-    white-space: nowrap;
-    transform-style: preserve-3d;
-    position: relative;
-    animation: leftmove 24s infinite;
-    animation-timing-function: linear;
+  padding-right: 250%;
+  display: inline-block;
+  white-space: nowrap;
+  transform-style: preserve-3d;
+  position: relative;
+  animation: leftmove 24s infinite;
+  animation-timing-function: linear;
 }
 
 @keyframes leftmove {
-    
-  from {right: -100%;}
-  to {right: 100%;}
+  from {
+    right: -100%;
+  }
+  to {
+    right: 100%;
+  }
 }
 
 .ticker-move:hover {
-    animation-play-state: paused;
+  animation-play-state: paused;
 }
 
 .ticker-item {
-    display: inline-block;
-    padding: 0 40px;
+  display: inline-block;
+  padding: 0 40px;
 }
 
 .ticker-item img {
-    max-width: 200px;
-    max-height: 70px;
-    width: 100%;
-    height: 100%;
-    -o-object-fit: contain;
-    object-fit: contain;
+  max-width: 200px;
+  max-height: 70px;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
 }
-
 
 /* Right Move */
 .tcontainer-2 {
-    width: 100%;
-    overflow: hidden;
+  width: 100%;
+  overflow: hidden;
 }
 
 .ticker-wrap-2 {
-    width: 100%;
-    padding-right: 10%;
+  width: 100%;
+  padding-right: 10%;
 }
 
 .ticker-move-2 {
-    padding-right: 250%;
-    display: inline-block;
-    white-space: nowrap;
-    transform-style: preserve-3d;
-    position: relative;
-    animation: rightmove 28s infinite;
-    animation-timing-function: linear;
+  padding-right: 250%;
+  display: inline-block;
+  white-space: nowrap;
+  transform-style: preserve-3d;
+  position: relative;
+  animation: rightmove 28s infinite;
+  animation-timing-function: linear;
 }
 
 @keyframes rightmove {
-    
-  from {left: -200%;}
-  to {left: 100%;}
+  from {
+    left: -200%;
+  }
+  to {
+    left: 100%;
+  }
 }
 
 .ticker-move-2:hover {
-    animation-play-state: paused;
+  animation-play-state: paused;
 }
 
 .ticker-item-2 {
-    display: inline-block;
-    padding: 0 40px;
+  display: inline-block;
+  padding: 0 40px;
 }
 
 .ticker-item-2 img {
-    max-width: 200px;
-    max-height: 70px;
-    width: 100%;
-    height: 100%;
-    -o-object-fit: contain;
-    object-fit: contain;
+  max-width: 200px;
+  max-height: 70px;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
 }
-
 
 /*Card Ticket Start*/
 .card {
-    height: 100%;
-    border-radius: 15px;
-    margin: 5px;
+  height: 100%;
+  border-radius: 15px;
+  margin: 5px;
 }
 /*Card Ticket End*/
 
 /* Slick Start*/
 .nftcard img {
-    height: 100%;
+  height: 100%;
 }
-#market .carousel{
-  width:100%;
-  margin:0px auto;
+#market .carousel {
+  width: 100%;
+  margin: 0px auto;
 }
-#market .slick-slide{
-  margin:10px;
+#market .slick-slide {
+  margin: 10px;
 }
-#market .slick-slide img{
+#market .slick-slide img {
   /* width:100%;
   box-shadow: 0px 0px 5px 5px rgb(0 0 0 / 70%); */
   border-top-right-radius: 15px;
   border-top-left-radius: 15px;
 }
 #market .slick-dots li button:before {
-  font-size:15px;
-  color:white;
+  font-size: 15px;
+  color: white;
 }
 .header {
-    font-size: 16px;
-    font-weight: 600;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: black;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: black;
 }
 /* Slick End*/
 
 /*Test*/
 .ticket2 {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin: auto;
-    filter: drop-shadow(2px 5px 5px rgba(0, 0, 0, 0.15));
-  }
-  .ticket2header {
-    position: relative;
-    background-color: #fff;
-    padding: 1rem;
-    font-size: 2.2rem;
-    font-weight: 600;
-    /* border-radius: 5px 5px 0 0; */
-  }
-  .ticket2img {
-    width: 100%;
-    border-radius: 5px 5px 0 0;
-  }
-  .ticket2header::after {
-    position: absolute;
-    content: "";
-    height: 1px;
-    border-top: 2px dashed #eee;
-    left: 20px;
-    right: 20px;
-    bottom: -20px;
-    z-index: 2;
-  }
-  .ticket2rip {
-    position: relative;
-    height: 30px;
-    flex-shrink: 0;
-    margin: 0 20px;
-    background-color: #fff;
-  }
-  .ticket2rip::before, .ticket2rip::after {
-    position: absolute;
-    content: "";
-    width: 30px;
-    height: 30px;
-    border: 15px solid transparent;
-    border-top-color: #fff;
-    border-right-color: #fff;
-    transform: translate(-50%, -50%) rotate(45deg);
-    border-radius: 50%;
-    top: 50%;
-  }
-  .ticket2rip::before {
-    left: -20px;
-  }
-  .ticket2rip::after {
-    right: -80px;
-    transform: translate(-50%, -50%) rotate(225deg);
-  }
-  .ticket2body {
-    background-color: #fff;
-    padding: 2rem;
-    border-radius: 0 0 15px 15px;
-  }
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  filter: drop-shadow(2px 5px 5px rgba(0, 0, 0, 0.15));
+}
+.ticket2header {
+  position: relative;
+  background-color: #fff;
+  padding: 1rem;
+  font-size: 2.2rem;
+  font-weight: 600;
+  /* border-radius: 5px 5px 0 0; */
+}
+.ticket2img {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+.ticket2header::after {
+  position: absolute;
+  content: "";
+  height: 1px;
+  border-top: 2px dashed #eee;
+  left: 20px;
+  right: 20px;
+  bottom: -20px;
+  z-index: 2;
+}
+.ticket2rip {
+  position: relative;
+  height: 30px;
+  flex-shrink: 0;
+  margin: 0 20px;
+  background-color: #fff;
+}
+.ticket2rip::before,
+.ticket2rip::after {
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 30px;
+  border: 15px solid transparent;
+  border-top-color: #fff;
+  border-right-color: #fff;
+  transform: translate(-50%, -50%) rotate(45deg);
+  border-radius: 50%;
+  top: 50%;
+}
+.ticket2rip::before {
+  left: -20px;
+}
+.ticket2rip::after {
+  right: -80px;
+  transform: translate(-50%, -50%) rotate(225deg);
+}
+.ticket2body {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 0 0 15px 15px;
+}
 
-  .title {
-    font-size: 18px;
-  }
+.title {
+  font-size: 18px;
+}
 
-  .value {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    color: #431216;
-    margin-top: 1px;
-  }
+.value {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #431216;
+  margin-top: 1px;
+}
 
-  .value-text {
-    font-size: 22px;
-    font-weight: 700;
-  }
+.value-text {
+  font-size: 22px;
+  font-weight: 700;
+}
 
-  .value-token {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    font-size: 14px;
-  }
+.value-token {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 14px;
+}
 
-  .value .value-token img {
-    width: 20px;
-    height: 20px;
-    margin-right: 4px;
-  }
+.value .value-token img {
+  width: 20px;
+  height: 20px;
+  margin-right: 4px;
+}
 
-  .title, .value {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+.title,
+.value {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .gambar:hover {
   -webkit-transform: scale(1.05);
-  -webkit-transition: -webkit-transform .3s;
-	transform: scale(1.25);
+  -webkit-transition: -webkit-transform 0.3s;
+  transform: scale(1.25);
   transition: transform 0.5s;
 }
 
@@ -304,8 +309,10 @@
   background: -webkit-linear-gradient(325deg, #ffdc00, #ffe100);
 }
 
-@media (max-width: 1024px){
-  .nav>li>a{
-    position:relative;display:block;padding:10px 5px
+@media (max-width: 1024px) {
+  .nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 5px;
   }
 }
