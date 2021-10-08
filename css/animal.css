@@ -357,12 +357,34 @@ a:focus {
   );
   box-shadow: 0 5px 15px rgba(242, 97, 103, 0.4);
 }
-
+.align-items-center {
+  -webkit-box-align: center!important;
+  -ms-flex-align: center!important;
+  align-items: center!important;
+}
+#whitepaper h2 {
+  font-size: 32px;
+  line-height: 45px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 550;
+  color: #431216;
+}
 .mt30 {
   margin-top: 30px !important;
 }
 .mb20 {
   margin-bottom: 20px !important;
+}
+.mb100 {
+  margin-bottom: 100px !important;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .feedis {
   background-color: #431216;
